@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1C40F"></stop>
+      <stop offset="1" stop-color="#EAB308"></stop>
+    </linearGradient>
+  </defs>
+  <!-- 月 -->
+  <circle cx="60" cy="48" r="22" fill="url(#g)"></circle>
+  <!-- 朧（霞のゆらぎ） -->
+  <g stroke="#334155" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M30 72c18 0 42 0 60 0"></path>
+    <path d="M24 82c22 0 50 0 72 0"></path>
+    <path d="M36 92c16 0 36 0 48 0"></path>
+  </g>
+</svg>
